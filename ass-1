@@ -11,33 +11,37 @@
         }
 
         .header {
-            background-color: #b663c7; /* Pink */
+            background-color: #ec7777; 
             padding: 100px;
             text-align: center;
+            width: 100%;
         }
 
         .navigation {
-            background-color: #4382e0; /* Blue */
-            padding: 250px;
+            background-color: #75a0e0; 
+            padding: 100px;
             text-align: center;
+            width: 100%;
         }
 
         .side {
-            background-color: #d8c767; /* Yellow */
-            padding: 20px;
+            background-color: #df9564; 
+            padding: 22px;
             float: left;
-            width: 21%;
+            width: 20%;
+            height: 866px;
         }
 
         .main {
-            background-color: #24531efd; /* Green */
-            padding: 20px;
+            background-color: #c1fdb9fd; 
+            padding: 50px;
             float: left;
-            width: 50.55%;
+            width: 50%;
+            height: 810px;
         }
 
         .footer {
-            background-color: #2196F3; /* Sky Blue */
+            background-color: #57f0f5; 
             padding: 200px;
             text-align: center;
             clear: both;
