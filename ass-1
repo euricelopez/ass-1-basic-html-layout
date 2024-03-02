@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Layout with Background Color</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .header {
+            background-color: #b663c7; /* Pink */
+            padding: 100px;
+            text-align: center;
+        }
+
+        .navigation {
+            background-color: #4382e0; /* Blue */
+            padding: 250px;
+            text-align: center;
+        }
+
+        .side {
+            background-color: #d8c767; /* Yellow */
+            padding: 20px;
+            float: left;
+            width: 21%;
+        }
+
+        .main {
+            background-color: #24531efd; /* Green */
+            padding: 20px;
+            float: left;
+            width: 50.55%;
+        }
+
+        .footer {
+            background-color: #2196F3; /* Sky Blue */
+            padding: 200px;
+            text-align: center;
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Header</h1>
+    </div>
+
+    <div class="navigation">
+        <p>Navigation Menu</p>
+    </div>
+
+    <div class="side">
+        <h2>Side Content</h2>
+        <p>This is some content in the sidebar.</p>
+    </div>
+
+    <div class="main">
+        <h2>Main Content</h2>
+        <p>This is the main content area of the page.</p>
+    </div>
+
+    <div class="side">
+        <h2>Side Content</h2>
+        <p>This is some more content in the sidebar.</p>
+    </div>
+
+    <div class="footer">
+        <p>Footer</p>
+    </div>
+</body>
+</html>
